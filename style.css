@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  width: 400px;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  width: 6rem;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0.5rem;
+}
+
+nav ul a {
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/* nav.sticky {
+  position: sticky;
+  top: 0;
+} */
+
+nav a.active {
+  background-color: lightseagreen;
+  color: white;
+}
